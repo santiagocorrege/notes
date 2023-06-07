@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "dale": "pedazo de chupapija",
+    "content": "CALLAO"
+}
+
+###
+GET http://localhost:3001/api/notes
